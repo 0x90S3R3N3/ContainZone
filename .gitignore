@@ -1,0 +1,82 @@
+# ============================================================
+# ContainZone
+# ============================================================
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Node
+node_modules/
+.next/
+out/
+dist/
+.turbo/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Local malware-analysis artifacts
+samples/
+quarantine/
+artifacts/
+analysis_output/
+pcaps/
+memory_dumps/
+screenshots/
+
+# Generated reports
+reports/generated/
+
+# YARA generated files
+*.yarc
+.yara_cache/
+
+# Docker
+docker-compose.override.yml
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Secrets / credentials
+*.pem
+*.key
+*.p12
+*.pfx
